@@ -1,7 +1,8 @@
 # Pokedex-SwiftUi-MVM
-<h2> Pokedex using Model & Model View <h2> 
+<h2> Pokedex using Model & Model View 
+     - Jessica Perez <h2> 
 
-Before starting the app i suggedt you organize and add the group folders in xcode 
+Before starting the app i suggest you organize and add the group folders in xcode 
 
 Start: 
 
