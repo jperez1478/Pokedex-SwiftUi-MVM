@@ -17,6 +17,8 @@ struct PokemonCell: View {
         ZStack {
             VStack {
                 Text("Bulbasaur")
+                    .font(.headline)
+                    .foregroundColor(.white)
                 
                 HStack{
                     Text("poison")
