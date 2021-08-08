@@ -1,0 +1,5 @@
+<h1> Pokedex using Mode and View Models <h1>
+
+In the inital part of the app I started with a zstack, the resason i did this is because inside that zstack i  want to add a vertical satck in order to show a text
+which will display the name " Bublbusar" 
+
