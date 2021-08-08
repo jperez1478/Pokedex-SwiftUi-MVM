@@ -26,9 +26,10 @@ struct PokemonCell: View {
                         .frame(width: 68, height: 68)
                 }
             }
-        }
+        } //:zstack
         //adding background
         .background(Color.green)
+        .cornerRadius(12)
     }
 }
 
