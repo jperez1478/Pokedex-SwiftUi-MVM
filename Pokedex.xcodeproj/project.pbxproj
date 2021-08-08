@@ -11,6 +11,7 @@
 		8E71AC2026BFA710000129EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E71AC1F26BFA710000129EB /* ContentView.swift */; };
 		8E71AC2226BFA711000129EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E71AC2126BFA711000129EB /* Assets.xcassets */; };
 		8E71AC2526BFA711000129EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E71AC2426BFA711000129EB /* Preview Assets.xcassets */; };
+		8E71AC3126BFA9CA000129EB /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E71AC3026BFA9CA000129EB /* PokemonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		8E71AC2126BFA711000129EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E71AC2426BFA711000129EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8E71AC2626BFA711000129EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E71AC3026BFA9CA000129EB /* PokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,8 @@
 		8E71AC1C26BFA710000129EB /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				8E71AC2F26BFA9B8000129EB /* Model */,
+				8E71AC2E26BFA99B000129EB /* View */,
 				8E71AC1D26BFA710000129EB /* PokedexApp.swift */,
 				8E71AC1F26BFA710000129EB /* ContentView.swift */,
 				8E71AC2126BFA711000129EB /* Assets.xcassets */,
@@ -67,6 +71,21 @@
 				8E71AC2426BFA711000129EB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E71AC2E26BFA99B000129EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E71AC3026BFA9CA000129EB /* PokemonCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8E71AC2F26BFA9B8000129EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +159,7 @@
 			files = (
 				8E71AC2026BFA710000129EB /* ContentView.swift in Sources */,
 				8E71AC1E26BFA710000129EB /* PokedexApp.swift in Sources */,
+				8E71AC3126BFA9CA000129EB /* PokemonCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
